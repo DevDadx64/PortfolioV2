@@ -1,6 +1,6 @@
 <nav>
     <div class="logo">
-        <h3>Miller E | Portfolio</h3>
+        <h2>Miller E | Portfolio</h2>
     </div>
     <div>
         <a href="/" class="<?= urlIs('/') ? 'selected' : '' ?>">Home</a>
