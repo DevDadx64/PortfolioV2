@@ -5,8 +5,7 @@ body {
     margin-right: 0;
     font-family: Arial;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-image: url(/images/portfolioBackground.jpg);
+    background-color: #0f1b27;
 }
 
 nav.bar {
