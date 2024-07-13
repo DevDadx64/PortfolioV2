@@ -1,5 +1,5 @@
 <nav class="bar">
-    <div class="logo"><img src="/images/logo.jpg"></div>
+    <div class="logo">Miller E | Portfolio</div>
         <div>
             <a href="/" class="<?= urlIs('/') ? "selected" : "none" ?>">Home</a>
             <a href="/projects" class="<?= urlIs('/projects') ? "selected" : "none" ?>">Projects</a>
