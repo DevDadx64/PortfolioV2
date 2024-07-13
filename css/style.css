@@ -10,6 +10,7 @@ body {
     padding-top: 60px;
     color: #f2f2f2;
     background-color: #0d0d0d;
+    overflow-x: hidden; /* Prevent horizontal overflow */
 }
 
 /* Nav Bar Styles */
@@ -24,22 +25,41 @@ nav {
     align-items: center;
     background-color: #0f1b27;
     justify-content: space-between;
+    overflow: hidden; /* Ensure no overflow */
+}
+
+nav .logo h3 {
+    margin: 0; /* Remove default margin from h3 */
+    color: #f2f2f2;
+}
+
+nav .menu-icon {
+    display: none;
+    font-size: 24px;
+    color: #f2f2f2;
+    cursor: pointer;
+}
+
+nav div {
+    display: flex;
+    align-items: center;
 }
 
 a {
-    padding: 15px;
+    padding: 10px 15px;
     font-size: large;
     color: #f2f2f2;
     font-weight: bold;
     text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-/* Header Styles */
-h1, h2, h3 {
-    color: #f2f2f2;
+a:hover {
+    background-color: #bfafaf; /* Medium gray for hover background */
+    color: #0d0d0d; /* Dark color for hover text */
 }
 
-/* Content Styles*/
-p {
-    color: #d9d9d9;
+.selected {
+    background-color: #bfafaf; /* Medium gray for selected background */
+    color: #0d0d0d; /* Dark color for selected text */
 }
