@@ -5,7 +5,7 @@ body {
     margin-right: 0;
     font-family: Arial;
     background-size: cover;
-    background-color: #0f1b27;
+    background-color: #0d0d0d;
 }
 
 nav.bar {
@@ -19,13 +19,12 @@ nav.bar {
     justify-content: space-between;
 }
 
-div.logo {
+.logo {
+    color: #f2f2f2;
+    text-decoration: none;
     padding: 5px 20px;
-}
-
-.logo img {
-    width: 200px;
-    height: 37px;
+    font-weight: bold;
+    font-size: 1.3rem;
 }
 
 a {
