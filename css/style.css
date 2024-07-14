@@ -1,5 +1,5 @@
 * {
-    margin: 0;
+    margin: 10px 10px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -15,11 +15,7 @@ body {
 
 /* Nav Bar Styles */
 nav {
-    top: 0;
-    width: 100%;
     display: flex;
-    z-index: 1000;
-    position: fixed;
     padding: 25px 25px;
     align-items: center;
     background-image: url(/images/nav_bar_background.jpg);
